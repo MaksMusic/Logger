@@ -1,0 +1,5 @@
+2023-10-04 17:51:07.743 [main] INFO  slf4jLoging.file.ShoppingCartFile - Item 'Item 1' добавлен
+2023-10-04 17:51:07.745 [main] DEBUG slf4jLoging.file.ShoppingCartFile - Item added to cart: Item 1
+2023-10-04 17:51:07.745 [main] INFO  slf4jLoging.file.ShoppingCartFile - Item 'Item 2' добавлен
+2023-10-04 17:51:07.745 [main] DEBUG slf4jLoging.file.ShoppingCartFile - Item added to cart: Item 2
+2023-10-04 17:51:07.745 [main] INFO  slf4jLoging.file.ShoppingCartFile - ѕрошла оплата в размере : 100.5

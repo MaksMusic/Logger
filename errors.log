@@ -1,0 +1,5 @@
+окт. 04, 2023 4:43:44 PM utilLoging.AddLoggToFile main
+SEVERE: Ошибка ввода-вывода
+java.io.IOException: Пример ошибки
+	at utilLoging.AddLoggToFile.main(AddLoggToFile.java:20)
+

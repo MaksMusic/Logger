@@ -16,7 +16,10 @@ public class ShoppingCart {
         // Логирование оплаты товара
         logger.info("Прошла оплата в размере : {}", amount);
     }
+
+
 }
+
 
 class Main {
     public static void main(String[] args) {

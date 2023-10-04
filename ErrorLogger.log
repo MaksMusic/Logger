@@ -1,0 +1,8 @@
+окт. 04, 2023 4:43:37 PM utilLoging.AddingLoggDifferentToFile main
+SEVERE: Пример сообщения об ошибке
+окт. 04, 2023 4:43:37 PM utilLoging.WorkerClass performWork
+SEVERE: Ошибка во время работы
+java.lang.ArithmeticException: / by zero
+	at utilLoging.WorkerClass.performWork(AddingLoggDifferentToFile.java:75)
+	at utilLoging.AddingLoggDifferentToFile.main(AddingLoggDifferentToFile.java:17)
+
