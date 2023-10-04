@@ -6,6 +6,7 @@ import org.slf4j.LoggerFactory;
 public class ShoppingCart {
     private static final Logger logger = LoggerFactory.getLogger(ShoppingCart.class);
 
+
     public void addToCart(String item) {
         // Логирование добавления товара в корзину
         logger.info("Item '{}' добавлен", item);
