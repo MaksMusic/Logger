@@ -1,4 +1,4 @@
-package logi;
+package utilLoging;
 
 import java.util.logging.*;
 import java.util.logging.ConsoleHandler;

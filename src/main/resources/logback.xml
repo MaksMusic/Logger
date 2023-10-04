@@ -1,0 +1,34 @@
+<configuration>
+
+    <!-- Конфигурация аппендера для записи логов в файл -->
+    <appender name="file" class="ch.qos.logback.core.FileAppender">
+        <!-- Путь к файлу лога относительно папки resources -->
+        <file>src/main/resources/application.log</file>
+        <!-- Перезаписывать файл при старте -->
+        <append>false</append>
+        <!-- Кодировка сообщений лога -->
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+        <!-- Ограничения на размер файла и хранение -->
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!-- Путь и базовое имя файла ротации -->
+            <fileNamePattern>src/main/resources/application.%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+            <!-- Максимальное количество дней хранения -->
+            <maxHistory>10</maxHistory>
+            <!-- Максимальный размер файла в байтах -->
+            <totalSizeCap>30GB</totalSizeCap>
+        </rollingPolicy>
+    </appender>
+
+    <!-- Настройки для логирования класса ShoppingCartFile -->
+    <logger name="ShoppingCartFile" level="debug">
+        <appender-ref ref="file" />
+    </logger>
+
+    <!-- Корневой логгер -->
+    <root level="debug">
+        <appender-ref ref="file" />
+    </root>
+
+</configuration>

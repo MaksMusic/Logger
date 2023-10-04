@@ -1,20 +1,63 @@
-2023-01-29 17:04:54,086 ERROR logi.Main:main:23 - 123
-2023-01-29 17:04:54,088 ERROR logi.Main:main:23 - 123
-2023-01-29 17:04:54,088 ERROR logi.Main:main:23 - 123
-2023-01-29 17:04:54,088 ERROR logi.Main:main:23 - 123
-2023-01-29 17:04:54,088 ERROR logi.Main:main:23 - 123
-2023-01-29 17:04:54,088 ERROR logi.Main:main:23 - 123
-2023-01-29 17:04:54,088 ERROR logi.Main:main:23 - 123
-2023-01-29 17:04:54,088 ERROR logi.Main:main:23 - 123
-2023-01-29 17:04:54,090 ERROR logi.Main:main:23 - 123
-2023-01-29 17:04:54,090 ERROR logi.Main:main:23 - 123
-2023-01-29 17:16:16,459 ERROR logi.Main:main:23 - !@3
-2023-01-29 17:16:16,460 ERROR logi.Main:main:23 - !@3
-2023-01-29 17:16:16,460 ERROR logi.Main:main:23 - !@3
-2023-01-29 17:16:16,460 ERROR logi.Main:main:23 - !@3
-2023-01-29 17:16:16,461 ERROR logi.Main:main:23 - !@3
-2023-01-29 17:16:16,461 ERROR logi.Main:main:23 - !@3
-2023-01-29 17:16:16,461 ERROR logi.Main:main:23 - !@3
-2023-01-29 17:16:16,461 ERROR logi.Main:main:23 - !@3
-2023-01-29 17:16:16,462 ERROR logi.Main:main:23 - !@3
-2023-01-29 17:16:16,462 ERROR logi.Main:main:23 - !@3
+2023-01-29 17:04:54,086 ERROR utilLoging.Main:main:23 - 123
+2023-01-29 17:04:54,088 ERROR utilLoging.Main:main:23 - 123
+2023-01-29 17:04:54,088 ERROR utilLoging.Main:main:23 - 123
+2023-01-29 17:04:54,088 ERROR utilLoging.Main:main:23 - 123
+2023-01-29 17:04:54,088 ERROR utilLoging.Main:main:23 - 123
+2023-01-29 17:04:54,088 ERROR utilLoging.Main:main:23 - 123
+2023-01-29 17:04:54,088 ERROR utilLoging.Main:main:23 - 123
+2023-01-29 17:04:54,088 ERROR utilLoging.Main:main:23 - 123
+2023-01-29 17:04:54,090 ERROR utilLoging.Main:main:23 - 123
+2023-01-29 17:04:54,090 ERROR utilLoging.Main:main:23 - 123
+2023-01-29 17:16:16,459 ERROR utilLoging.Main:main:23 - !@3
+2023-01-29 17:16:16,460 ERROR utilLoging.Main:main:23 - !@3
+2023-01-29 17:16:16,460 ERROR utilLoging.Main:main:23 - !@3
+2023-01-29 17:16:16,460 ERROR utilLoging.Main:main:23 - !@3
+2023-01-29 17:16:16,461 ERROR utilLoging.Main:main:23 - !@3
+2023-01-29 17:16:16,461 ERROR utilLoging.Main:main:23 - !@3
+2023-01-29 17:16:16,461 ERROR utilLoging.Main:main:23 - !@3
+2023-01-29 17:16:16,461 ERROR utilLoging.Main:main:23 - !@3
+2023-01-29 17:16:16,462 ERROR utilLoging.Main:main:23 - !@3
+2023-01-29 17:16:16,462 ERROR utilLoging.Main:main:23 - !@3
+2023-10-04 16:21:59,690  INFO slf4jLoging.ShoppingCartPrintLog:addItem:19 - Adding item 'Item 1' with price '10.99' to the shopping cart
+2023-10-04 16:21:59,691  INFO slf4jLoging.ShoppingCartPrintLog:addItem:19 - Adding item 'Item 2' with price '5.99' to the shopping cart
+2023-10-04 16:21:59,691  INFO slf4jLoging.ShoppingCartPrintLog:removeItem:26 - Removing item 'Item 1' with price '10.99' from the shopping cart
+2023-10-04 16:21:59,691  INFO slf4jLoging.ShoppingCartPrintLog:checkout:33 - Checking out the shopping cart for customer 'John Doe'
+2023-10-04 16:21:59,692  INFO slf4jLoging.ShoppingCartPrintLog:checkout:34 - Total amount: 5.99
+2023-10-04 16:21:59,692  INFO slf4jLoging.ShoppingCartPrintLog:checkout:40 - Order successfully checked out
+2023-10-04 16:21:59,693  INFO slf4jLoging.StartShop:main:56 - Program execution completed
+2023-10-04 16:25:43,563  INFO slf4jLoging.ShoppingCartPrintLog:addItem:21 - Adding item 'Item 1' with price '10.99' to the shopping cart
+2023-10-04 16:25:43,564  INFO slf4jLoging.ShoppingCartPrintLog:addItem:21 - Adding item 'Item 2' with price '5.99' to the shopping cart
+2023-10-04 16:25:43,564  INFO slf4jLoging.ShoppingCartPrintLog:removeItem:28 - Removing item 'Item 1' with price '10.99' from the shopping cart
+2023-10-04 16:25:43,564  INFO slf4jLoging.ShoppingCartPrintLog:checkout:35 - Checking out the shopping cart for customer 'John Doe'
+2023-10-04 16:25:43,565  INFO slf4jLoging.ShoppingCartPrintLog:checkout:36 - Total amount: 5.99
+2023-10-04 16:25:43,565  INFO slf4jLoging.ShoppingCartPrintLog:checkout:42 - Order successfully checked out
+2023-10-04 16:26:14,358  INFO slf4jLoging.ShoppingCartPrintLog:addItem:21 - Adding item 'Item 1' with price '10.99' to the shopping cart
+2023-10-04 16:26:14,359  INFO slf4jLoging.ShoppingCartPrintLog:addItem:21 - Adding item 'Item 2' with price '5.99' to the shopping cart
+2023-10-04 16:26:14,359  INFO slf4jLoging.ShoppingCartPrintLog:removeItem:28 - Removing item 'Item 1' with price '10.99' from the shopping cart
+2023-10-04 16:26:14,359  INFO slf4jLoging.ShoppingCartPrintLog:checkout:35 - Checking out the shopping cart for customer 'John Doe'
+2023-10-04 16:26:14,360  INFO slf4jLoging.ShoppingCartPrintLog:checkout:36 - Total amount: 5.99
+2023-10-04 16:26:14,360  INFO slf4jLoging.ShoppingCartPrintLog:checkout:42 - Order successfully checked out
+2023-10-04 16:44:14,151  INFO slf4jLoging.ShoppingCartPrintLog:addItem:19 - Adding item 'Item 1' with price '10.99' to the shopping cart
+2023-10-04 16:44:14,152  INFO slf4jLoging.ShoppingCartPrintLog:addItem:19 - Adding item 'Item 2' with price '5.99' to the shopping cart
+2023-10-04 16:44:14,152  INFO slf4jLoging.ShoppingCartPrintLog:removeItem:26 - Removing item 'Item 1' with price '10.99' from the shopping cart
+2023-10-04 16:44:14,152  INFO slf4jLoging.ShoppingCartPrintLog:checkout:33 - Checking out the shopping cart for customer 'John Doe'
+2023-10-04 16:44:14,152  INFO slf4jLoging.ShoppingCartPrintLog:checkout:34 - Total amount: 5.99
+2023-10-04 16:44:14,152  INFO slf4jLoging.ShoppingCartPrintLog:checkout:40 - Order successfully checked out
+2023-10-04 16:47:48,737  INFO slf4jLoging.ShoppingCartPrintLog:addItemToCart:12 - Добавлен товар в корзину: Ноутбук
+2023-10-04 16:47:48,738  INFO slf4jLoging.ShoppingCartPrintLog:processPayment:17 - Обработка оплаты: 1500.5
+2023-10-04 16:47:53,228  INFO slf4jLoging.ShoppingCartPrintLog:addItemToCart:12 - Добавлен товар в корзину: Ноутбук
+2023-10-04 16:47:53,233  INFO slf4jLoging.ShoppingCartPrintLog:processPayment:17 - Обработка оплаты: 1500.5
+2023-10-04 16:47:54,300  INFO slf4jLoging.ShoppingCartPrintLog:addItemToCart:12 - Добавлен товар в корзину: Ноутбук
+2023-10-04 16:47:54,302  INFO slf4jLoging.ShoppingCartPrintLog:processPayment:17 - Обработка оплаты: 1500.5
+2023-10-04 16:48:56,942  INFO slf4jLoging.ShoppingCartPrintLog:addItemToCart:12 - Добавлен товар в корзину: Ноутбук
+2023-10-04 16:48:56,944  INFO slf4jLoging.ShoppingCartPrintLog:processPayment:17 - Обработка оплаты: 1500.5
+2023-10-04 16:50:46,728  INFO slf4jLoging.ShoppingCartPrintLog:addItemToCart:12 - Добавлен товар в корзину: Ноутбук
+2023-10-04 16:50:46,730  INFO slf4jLoging.ShoppingCartPrintLog:processPayment:17 - товар добавлен: 1500.5
+2023-10-04 16:53:03,985  INFO slf4jLoging.ShoppingCartPrintLog:addItemToCart:12 - Добавлен товар в корзину: Ноутбук
+2023-10-04 16:53:03,987  INFO slf4jLoging.ShoppingCartPrintLog:processPayment:17 - товар добавлен: 1500.5
+2023-10-04 16:59:33,971  INFO slf4jLoging.ShoppingCart:addToCart:11 - Item 'Item 1' added to the shopping cart
+2023-10-04 16:59:33,972  INFO slf4jLoging.ShoppingCart:addToCart:11 - Item 'Item 2' added to the shopping cart
+2023-10-04 16:59:33,973  INFO slf4jLoging.ShoppingCart:makePayment:16 - Payment made for amount: 100.5
+2023-10-04 16:59:53,756  INFO slf4jLoging.ShoppingCart:addToCart:11 - Item 'Item 1' added to the shopping cart
+2023-10-04 16:59:53,757  INFO slf4jLoging.ShoppingCart:addToCart:11 - Item 'Item 2' added to the shopping cart
+2023-10-04 16:59:53,758  INFO slf4jLoging.ShoppingCart:makePayment:16 - Payment made for amount: 100.5
