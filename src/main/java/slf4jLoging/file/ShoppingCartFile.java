@@ -29,5 +29,6 @@ class Main {
 
         // Оплата товара
         cart.makePayment(100.50);
+
     }
 }
