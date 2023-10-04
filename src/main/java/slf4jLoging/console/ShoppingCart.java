@@ -4,6 +4,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class ShoppingCart {
+
     private static final Logger logger = LoggerFactory.getLogger(ShoppingCart.class);
 
     public void addToCart(String item) {
@@ -16,7 +17,6 @@ public class ShoppingCart {
         // Логирование оплаты товара
         logger.info("Прошла оплата в размере : {}", amount);
     }
-
 
 }
 
